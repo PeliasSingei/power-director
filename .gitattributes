@@ -1,0 +1,15 @@
+# Text file normalization
+# This file is used to override language statistics
+# Default behavior
+Cargo.lock linguist-generated
+
+*.bat text eol=crlf
+
+*.png binary
+
+public/index.html linguist-vendored
+public/*.html linguist-vendored
+go.sum linguist-generated
+dist/* linguist-vendored
+
+**/*.go linguist-detectable
